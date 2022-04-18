@@ -16,7 +16,7 @@ public Plugin myinfo = {
 	author = "Esat Efe",
 	description = "Zombie Escape gamemode for Team Fortress 2. Not supported.",
 	version = SOURCEMOD_VERSION,
-	url = "https://esat-efe.github.io/"
+	url = "https://esatefekorkmaz.github.io/"
 };
 
 ConVar allowCommands;
