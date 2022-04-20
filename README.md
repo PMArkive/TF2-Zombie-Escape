@@ -1,4 +1,4 @@
-# TF2-Zombie-Escape-Unsupported
+# TF2-Zombie-Escape
 A Zombie Escape gamemode plugin for TF2. Shared for portfolio.
 
 # Known Issues
