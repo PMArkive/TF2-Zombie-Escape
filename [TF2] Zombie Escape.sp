@@ -111,7 +111,7 @@ public void OnMapStart(){
 }
 
 public Action AuthorBroadcast(Handle timer){
-	CPrintToChatAll("{lime}[ZE] {default}Zombie Escape by Esat Efe");
+	CPrintToChatAll("{lime}[ZE] {default}Zombie Escape by Korki");
 }
 
 public Action CheckPlayersTimer(Handle timer){
