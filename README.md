@@ -1,5 +1,5 @@
 # TF2-Zombie-Escape
-A Zombie Escape gamemode plugin for TF2. Shared for portfolio.
+An outdated Zombie Escape gamemode plugin for TF2.
 
 # Known Issues
 Should be reminded that knockback techniques are glitchy.
