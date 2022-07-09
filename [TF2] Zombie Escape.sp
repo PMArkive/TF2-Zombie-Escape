@@ -24,7 +24,7 @@
 
 public Plugin myinfo = {
     name = "[TF2] Zombie Escape (Unsupported)",
-    author = "Korki",
+    author = "knfc",
     description = "Zombie Escape gamemode for Team Fortress 2. Not supported.",
     version = SOURCEMOD_VERSION,
     url = "https://esatefekorkmaz.github.io/"
@@ -121,7 +121,7 @@ public void OnMapStart() {
 }
 
 public Action AuthorBroadcast(Handle timer) {
-    CPrintToChatAll("{lime}[ZE] {default}Zombie Escape by Korki");
+    CPrintToChatAll("{lime}[ZE] {default}Zombie Escape by knfc");
 }
 
 public Action CheckPlayersTimer(Handle timer) {
