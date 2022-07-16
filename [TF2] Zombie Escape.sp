@@ -24,7 +24,7 @@
 
 public Plugin myinfo = {
     name = "[TF2] Zombie Escape (Unsupported)",
-    author = "knfc",
+    author = "Korki",
     description = "Zombie Escape gamemode for Team Fortress 2. Not supported.",
     version = SOURCEMOD_VERSION,
     url = "https://esatefekorkmaz.github.io/"
