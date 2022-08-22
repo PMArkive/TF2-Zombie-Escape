@@ -1,0 +1,37 @@
+"Phrases"
+{
+  "Author"
+  {
+    "en"    "{deepskyblue}[ZE] {darkgray}Zombie Escape eklentisi {white}Korki {darkgray}tarafından geliştirildi. {white}'Elimizin emeği, alnımızın teri.'"
+  }
+  "CannotChangeTeam"
+  {
+    "en"    "{deepskyblue}[ZE] {darkgray}Şu anda takım değiştiremezsiniz."
+  }
+  "CannotSuicide"
+  {
+    "en"    "{deepskyblue}[ZE] {darkgray}Şu anda intihar edemezsiniz."
+  }
+  "YoureInfected"
+  {
+    "en"    "Enfekte oldunuz"
+  }
+  "HasBeenInfected"
+  {
+	"#format"		"{1:N}"
+	"en"	"{deepskyblue}[ZE] {white}{1} {darkgray}enfekte oldu!"
+  }
+  "StandHereForSeconds"
+  {
+	"#format"		"{1:d}"
+	"en"	"Burayı {1} saniye boyunca koru"
+  }
+  "Human"
+  {
+	"en"	"İnsan"
+  }
+  "Zombie"
+  {
+	"en"	"Zombi"
+  }
+}
