@@ -55,6 +55,7 @@ bool isZombie[MAXPLAYERS + 1];
 bool isSpeedSet[MAXPLAYERS + 1];
 bool isStunned[MAXPLAYERS + 1];
 bool b_Transmit[MAXPLAYERS + 1] = false;
+int time;
 
 public void OnPluginStart() {
   for (new i = 1; i <= MaxClients; i++) {
@@ -690,7 +691,7 @@ public Action: Event_teamplay_setup_finished(Handle: event, const String: name[]
       ChangeClientTeam(clients.Get(i), 2);
       playerFrozen[clients.Get(i)] = true;
       TF2_RespawnPlayer(clients.Get(i));
-      ProtectPlayer(clients.Get(i), 13.0);
+      SetEntityMoveType(clients.Get(i), MOVETYPE_NONE);
       CreateTimer(10.0, SetMoveTypeBack, clients.Get(i));
       CPrintToChatAll("%t", "HasBeenInfected", clients.Get(i));
     }
@@ -902,15 +903,27 @@ public Action Command_MapTimer(int args) {
 
   char arg[5];
   GetCmdArg(1, arg, sizeof(arg));
-  int time = StringToInt(arg);
-  SetHudTextParams(-1.0, 0.20, float(time), 0, 255, 0, 255, 0, 1.0, 1.0, 1.0);
-  for (new i = 1; i <= MaxClients; i++) {
-    if (IsClientInGame(i) && (!IsFakeClient(i) && GetClientTeam(i) == 3)) {
-      ShowSyncHudText(i, standHereHud, "%t", "StandHereForSeconds", time);
-    }
-  }
+  time = StringToInt(arg);
+
+  CreateTimer(1.0, Timer_MapTimer, _, TIMER_REPEAT);
 
   return Plugin_Handled;
+}
+
+public Action Timer_MapTimer(Handle timer) {
+  if (time > 0) {
+    SetHudTextParams(-1.0, 0.20, 1.0, 0, 255, 0, 255, 0, 1.0, 1.0, 1.0);
+    for (new i = 1; i <= MaxClients; i++) {
+      if (IsClientInGame(i) && (!IsFakeClient(i) && GetClientTeam(i) == 3)) {
+        ShowSyncHudText(i, standHereHud, "%t", "StandHereForSeconds", time);
+      }
+    }
+    time--;
+    return Plugin_Continue;
+  }
+  else{
+    return Plugin_Stop;
+  }
 }
 
 stock bool: IsValidClient(client) {
