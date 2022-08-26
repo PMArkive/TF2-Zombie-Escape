@@ -2,7 +2,7 @@
 {
   "Author"
   {
-    "en"    "{dodgerblue}[ZE] {slategray}Zombie Escape eklentisi {gray}Korki {slategray}tarafından geliştirildi. {gray}'Elimizin emeği, alnımızın teri.'"
+    "en"    "{dodgerblue}[ZE] {slategray}Zombie Escape eklentisi {gray}Korki {slategray}tarafından geliştirildi."
   }
   "CannotChangeTeam"
   {
