@@ -2,15 +2,15 @@
 {
   "Author"
   {
-    "en"    "{darkslategray}[ZE] {slategray}Zombie Escape eklentisi {white}Korki {slategray}tarafından geliştirildi."
+    "en"    "{darkslategray}[TF2ZE] {slategray}Zombie Escape eklentisi {white}Korki {slategray}tarafından geliştirildi."
   }
   "CannotChangeTeam"
   {
-    "en"    "{darkslategray}[ZE] {slategray}Şu anda takım değiştiremezsiniz."
+    "en"    "{darkslategray}[TF2ZE] {slategray}Şu anda takım değiştiremezsiniz."
   }
   "CannotSuicide"
   {
-    "en"    "{darkslategray}[ZE] {slategray}Şu anda intihar edemezsiniz."
+    "en"    "{darkslategray}[TF2ZE] {slategray}Şu anda intihar edemezsiniz."
   }
   "YoureInfected"
   {
@@ -19,7 +19,7 @@
   "HasBeenInfected"
   {
 	"#format"		"{1:N}"
-	"en"	"{darkslategray}[ZE] {white}{1} {slategray}enfekte oldu!"
+	"en"	"{darkslategray}[TF2ZE] {white}{1} {slategray}enfekte oldu!"
   }
   "StandHereForSeconds"
   {
