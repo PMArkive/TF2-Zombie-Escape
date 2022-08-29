@@ -26,6 +26,11 @@
 	"#format"		"{1:d}"
 	"en"	"Burayı {1} saniye boyunca koru"
   }
+  "GoGoGo"
+  {
+	"#format"		"{1:d}"
+	"en"	"Haydi, haydi, haydi!"
+  }
   "Human"
   {
 	"en"	"İnsan"
