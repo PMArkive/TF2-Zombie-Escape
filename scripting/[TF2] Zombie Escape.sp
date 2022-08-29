@@ -911,8 +911,8 @@ public Action Command_MapTimer(int args) {
 }
 
 public Action Timer_MapTimer(Handle timer) {
+  SetHudTextParams(-1.0, 0.20, 1.0, 0, 255, 0, 255, 0, 1.0, 1.0, 1.0);
   if (time > 0) {
-    SetHudTextParams(-1.0, 0.20, 1.0, 0, 255, 0, 255, 0, 1.0, 1.0, 1.0);
     for (new i = 1; i <= MaxClients; i++) {
       if (IsClientInGame(i) && (!IsFakeClient(i) && GetClientTeam(i) == 3)) {
         ShowSyncHudText(i, standHereHud, "%t", "StandHereForSeconds", time);
@@ -922,6 +922,7 @@ public Action Timer_MapTimer(Handle timer) {
     return Plugin_Continue;
   }
   else{
+    ShowSyncHudText(i, standHereHud, "%t", "GoGoGo");
     return Plugin_Stop;
   }
 }
