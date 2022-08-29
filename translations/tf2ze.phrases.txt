@@ -2,7 +2,7 @@
 {
   "Author"
   {
-    "en"    "{darkslategray}[ZE] {slategray}Zombie Escape eklentisi {gray}Korki {slategray}tarafından geliştirildi."
+    "en"    "{darkslategray}[ZE] {slategray}Zombie Escape eklentisi {white}Korki {slategray}tarafından geliştirildi."
   }
   "CannotChangeTeam"
   {
@@ -19,12 +19,12 @@
   "HasBeenInfected"
   {
 	"#format"		"{1:N}"
-	"en"	"{darkslategray}[ZE] {gray}{1} {slategray}enfekte oldu!"
+	"en"	"{darkslategray}[ZE] {white}{1} {slategray}enfekte oldu!"
   }
   "StandHereForSeconds"
   {
 	"#format"		"{1:d}"
-	"en"	"Burayı {1} saniye boyunca koru"
+	"en"	"Burayı {1} saniye boyunca koruyun"
   }
   "GoGoGo"
   {
