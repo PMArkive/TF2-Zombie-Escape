@@ -417,7 +417,7 @@ public void Knockback(inflictor, client, float amount) {
   MakeVectorFromPoints(clientLocation, inflictorLocation, vector);
   NormalizeVector(vector, vector);
   ScaleVector(vector, amount);
-  vector[2] = 10.0;
+  vector[2] = 100.0;
   TeleportEntity(client, NULL_VECTOR, NULL_VECTOR, vector);
 }
 
