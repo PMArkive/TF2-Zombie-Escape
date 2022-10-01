@@ -2,41 +2,41 @@
 {
   "Author"
   {
-    "en"    "{corrupted}[TF2ZE] {default}Zombie Escape eklentisi {green}Korki {default}tarafından geliştirildi."
+    "en"    "{corrupted}[TF2ZE]{default} Zombie Escape plugin developed by {green}esatefekorkmaz{default}."
   }
   "CannotChangeTeam"
   {
-    "en"    "{corrupted}[TF2ZE] {default}Şu anda takım değiştiremezsiniz."
+    "en"    "{corrupted}[TF2ZE]{default} You cannot change your team now."
   }
   "CannotSuicide"
   {
-    "en"    "{corrupted}[TF2ZE] {default}Şu anda intihar edemezsiniz."
+    "en"    "{corrupted}[TF2ZE]{default} You cannot suicide now."
   }
   "YoureInfected"
   {
-    "en"    "Enfekte oldunuz"
+    "en"    "You're infected!"
   }
   "HasBeenInfected"
   {
 	"#format"		"{1:N}"
-	"en"	"{corrupted}[TF2ZE] {red}{1} {default}enfekte oldu!"
+	"en"	"{corrupted}[TF2ZE] {red}{1} {default}has been infected!"
   }
   "StandHereForSeconds"
   {
 	"#format"		"{1:d}"
-	"en"	"Burayı {1} saniye boyunca koruyun"
+	"en"	"Stay here {1} seconds"
   }
   "GoGoGo"
   {
 	"#format"		"{1:d}"
-	"en"	"Haydi, haydi, haydi!"
+	"en"	"Go!"
   }
   "Human"
   {
-	"en"	"İnsan"
+	"en"	"Human"
   }
   "Zombie"
   {
-	"en"	"Zombi"
+	"en"	"Zombie"
   }
 }
