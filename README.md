@@ -1,2 +1,2 @@
 # TF2-Zombie-Escape
-A Zombie Escape gamemode plugin for TF2.
+A Team Fortress 2 plugin that includes the basics of the Zombie Escape game mode.
