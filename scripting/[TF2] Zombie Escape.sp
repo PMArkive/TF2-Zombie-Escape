@@ -24,7 +24,7 @@
 
 public Plugin myinfo = {
   name = "[TF2] Zombie Escape",
-  author = "Korki",
+  author = "esatefekorkmaz",
   description = "Zombie Escape gamemode for Team Fortress 2.",
   version = SOURCEMOD_VERSION,
   url = "https://esatefekorkmaz.github.io/"
