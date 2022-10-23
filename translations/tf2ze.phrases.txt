@@ -1,0 +1,42 @@
+"Phrases"
+{
+  "Author"
+  {
+    "en"    "{corrupted}[TF2ZE]{default} Zombie Escape plugin developed by {green}esatefekorkmaz{default}."
+  }
+  "CannotChangeTeam"
+  {
+    "en"    "{corrupted}[TF2ZE]{default} You cannot change your team now."
+  }
+  "CannotSuicide"
+  {
+    "en"    "{corrupted}[TF2ZE]{default} You cannot suicide now."
+  }
+  "YoureInfected"
+  {
+    "en"    "You're infected!"
+  }
+  "HasBeenInfected"
+  {
+	"#format"		"{1:N}"
+	"en"	"{corrupted}[TF2ZE] {red}{1} {default}has been infected!"
+  }
+  "StandHereForSeconds"
+  {
+	"#format"		"{1:d}"
+	"en"	"Stay here {1} seconds"
+  }
+  "GoGoGo"
+  {
+	"#format"		"{1:d}"
+	"en"	"Go!"
+  }
+  "Human"
+  {
+	"en"	"Human"
+  }
+  "Zombie"
+  {
+	"en"	"Zombie"
+  }
+}
